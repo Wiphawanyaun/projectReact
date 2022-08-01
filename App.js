@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import Logo from "./components/Logo";
 import User from "./components/User";
-import { Button } from "react-native-web";
+import { Button, Modal } from "react-native-web";
 import LotsOfGreeting from "./components/LotsOfGreeting";
 import MycustomTextWith from "./components/MycustomTextWith";
 import Count from "./components/Count";
@@ -16,6 +16,7 @@ import Touchable_Example from "./components/Touchable_Example";
 import TouchablePractice from "./components/TouchablePractice";
 import DynamicStyle from "./components/DynamicStyle";
 import ModelExample from "./components/ModelExample";
+import ModalPractice from "./components/ModalPractice";
 
 const App = () => {
   return (
@@ -36,7 +37,9 @@ const App = () => {
       {/* <Touchable_Example/> */}
       {/* <TouchablePractice/> */}
       {/* <DynamicStyle/> */}
-      <ModelExample/>
+      {/* <ModelExample/> */}
+      { <ModalPractice/>}
+
     </View>
   );
 };
